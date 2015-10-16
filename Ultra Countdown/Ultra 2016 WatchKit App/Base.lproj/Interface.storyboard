@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="7701"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller contentMode="scaleAspectFill" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Ultra_2016_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" verticalAlignment="bottom" text="000:00:00:00" textAlignment="center" id="h3S-Y5-8s0">
+                            <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <imageView width="136" height="126" alignment="left" image="Miami_Squad.png" contentMode="scaleAspectFill" id="IZR-P0-TzW">
+                            <variation key="device=watch42mm" height="149" width="156"/>
+                        </imageView>
+                    </items>
+                    <connections>
+                        <outlet property="countdownLabel" destination="h3S-Y5-8s0" id="UFe-kD-ihu"/>
+                        <outlet property="squadImage" destination="IZR-P0-TzW" id="OPi-Fp-C20"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="219.69230769230771" y="299.46153846153851"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="Ultra_2016_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="135" height="45" alignment="left" text="100 Days until Ultra!!! 🙌🏼" textAlignment="center" numberOfLines="2" id="XiV-6g-0hr"/>
+                    </items>
+                    <connections>
+                        <outlet property="notificationLabel" destination="XiV-6g-0hr" id="mOi-Ps-t4A"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
