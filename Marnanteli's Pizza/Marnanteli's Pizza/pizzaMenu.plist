@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Basic Pie</key>
+	<dict>
+		<key>title</key>
+		<string>Basic Pie</string>
+		<key>image</key>
+		<string></string>
+		<key>overview</key>
+		<string>Make Your Own</string>
+		<key>description</key>
+		<string>Toppings: Pepperoni, Canadian Bacon, American Sausage, Italian Sausage, Mushrooms, Onions, Green Peppers, Green Olives, Black Olives, Pineapple, Bacon, Shrimp, Sauerkraut</string>
+	</dict>
+	<key>Special</key>
+	<dict>
+		<key>title</key>
+		<string>Special</string>
+		<key>image</key>
+		<string></string>
+		<key>overview</key>
+		<string>The Marnanteli&apos;s Special</string>
+		<key>description</key>
+		<string>Toppings: Canadian Bacon, Italian Sausage, Mushrooms</string>
+	</dict>
+</dict>
+</plist>

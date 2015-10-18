@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Sartell Location</key>
+	<dict>
+		<key>name</key>
+		<string>Marnanteli&apos;s Pizza</string>
+		<key>address</key>
+		<string>3 Riverside Ave S, Sartell, MN 56377</string>
+		<key>latitude</key>
+		<string>45.617390</string>
+		<key>longitude</key>
+		<string>-94.204658</string>
+	</dict>
+</dict>
+</plist>
